@@ -4,6 +4,9 @@
     box-sizing: border-box;
     color: white;
 }
+.content{
+    margin: 0px 200px;
+}
 
 .gradient{
     background: linear-gradient(to right, yellow, rgb(234, 49, 166), rgb(111, 0, 128));
@@ -65,4 +68,34 @@
 .hero-container img {
   max-width: 50%;
   height: auto;
+}
+
+/* about section  */
+#about-section{
+    background-color: #1A0B2E;
+}
+.about{
+    text-align: center;
+}
+.about h1{
+    -webkit-flow-into: 48px;
+    padding-bottom: 16px;
+}
+.about p{
+    padding-bottom: 16px;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+.rating *{
+    color: rgb(50, 197, 30);
+}
+.rating h2{
+    font-size: 3rem;
 }

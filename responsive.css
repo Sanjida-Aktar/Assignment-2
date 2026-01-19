@@ -16,6 +16,15 @@ Large Device: above 992 px */
   height: 200px;
 
 }
+/* about section  */
+.content{
+    margin: 0px 80px;
+}
+}
+.rating h2{
+    font-size: 2rem;
+    
+}
 
 
 /* smalldevice */
@@ -23,7 +32,16 @@ Large Device: above 992 px */
     .navber{
     padding: 16px 20px;
 }
+
+/* about section  */
 .content h1{
     font-size: 38px;
 }
+.rate{
+    flex-wrap: wrap;
+    align-items: center;
+}
+}
+.content{
+    margin: 0px 40px;
 }
