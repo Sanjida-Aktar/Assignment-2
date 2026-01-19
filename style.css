@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.gradient{
+    background: linear-gradient(to right, yellow, rgb(234, 49, 166), rgb(111, 0, 128));
+
+}
+.gradient-txt{
+    background: linear-gradient(to right, yellow, rgb(234, 49, 166), rgb(182, 41, 203));
+     -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #412567;
+    padding: 16px 200px;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.link a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 1000px;
+    border: none;
+}
+
+/* hero section  */
+.hero-section{
+    background-image: url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('assets/hero-circle.png') no-repeat center/cover;
+  margin-bottom: 30px;
+}
+.hero-container img {
+  max-width: 50%;
+  height: auto;
+}
