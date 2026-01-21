@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
+    font-family: "Inter", sans-serif;
 }
 .content{
     margin: 0px 200px;
@@ -38,6 +39,12 @@
     padding: 10px 20px;
     border-radius: 1000px;
     border: none;
+}
+.menu-icon{
+    display: none;
+    /* width: 28px; */
+    cursor: pointer;
+
 }
 
 /* hero section  */
@@ -93,7 +100,7 @@
     padding-bottom: 60px;
 
 }
-.rating *{
+.rating h2{
     color: rgb(50, 197, 30);
 }
 .rating h2{

@@ -11,6 +11,24 @@ Large Device: above 992 px */
     .navber{
     padding: 16px 80px;
 }
+.menu-icon{
+    display: block;
+}
+.link{
+    display: none;
+    flex-direction: column;
+    background: #333;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+  }
+  .nav-links.show{
+    display: flex;
+  }
+.nav-btn{
+    display: none;
+}
 .hero-container {
   width: 200px;
   height: 200px;
@@ -62,6 +80,12 @@ Large Device: above 992 px */
     .navber{
     padding: 16px 20px;
 }
+.logo{
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+
 
 /* about section  */
 .content h1{
@@ -82,6 +106,10 @@ Large Device: above 992 px */
 }
 .host-section{
     padding: 30px;
+}
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 }
 

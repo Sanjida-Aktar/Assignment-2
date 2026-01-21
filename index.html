@@ -6,18 +6,27 @@
     <title>Assignment-2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- google font cmd  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- navebr section  -->
     
     <nav class="navber">
         <div class="logo">Tech<span class="gradient-txt">Wave</span></div>
+        <img src="assets/hamburger-menu.png" class="menu-icon" onclick="toggleMenu()" alt="menu">
         <div class="link">
             <a href="">About</a>
             <a href="Episodes">Episodes</a>
             <a href="">Host</a>
         </div>
-        <div class="gradient btn">Subscribe</div>
+        <div class="nav-btn">
+            <button class="gradient btn"><p>Subscribe <i class="fa-solid fa-arrow-right"></i></p></button>
+        </div>
     </nav>
    
 <!-- hreo section  -->
@@ -26,10 +35,10 @@
         <img src="assets/microphone.png" alt="">
     </div>
     <div class="content">
-        <h1 style="font-size: 60px; font-weight: 800; padding-bottom: 16px;">TecWave</h1>
+        <h1 style="font-size: 50px; font-weight: 700; padding-bottom: 16px;">TecWave</h1>
         <p style="padding-bottom: 20px;">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-        <button class="gradient btn">Listen on Spotify</button>
-        <button class="btn" style="background-color: transparent; border: 1px solid rgb(25, 241, 25); color: rgb(31, 241, 31);">Subscribe</button>
+        <button class="gradient btn"><img src="assets/spotify.png" alt="" style="vertical-align: middle; height: 16px;"> Listen on Spotify</button>
+        <button class="btn" style="background-color: transparent; border: 1px solid rgb(25, 241, 25); color: rgb(31, 241, 31);"><img src="assets/message.png" alt="" style="vertical-align: middle; height: 12px;">  Subscribe</button>
     </div>
  </header>
 
@@ -75,24 +84,24 @@ and share stories of personal growth from industry leaders.</p>
             <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
         </div>
         <div class="choose-box box-2">
-            <img src="assets/headphone.png" alt="">
-            <h3>Premium Audio Quality</h3>
-            <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            <img src="assets/device.png" alt="">
+            <h3>Mobile Friendly</h3>
+            <p>Listen on the go with seamless mobile experience and offline downloads.</p>
         </div>
         <div class="choose-box box-3">
-            <img src="assets/headphone.png" alt="">
-            <h3>Premium Audio Quality</h3>
-            <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            <img src="assets/location.png" alt="">
+            <h3>Global Community</h3>
+            <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
         </div>
         <div class="choose-box box-4">
-            <img src="assets/headphone.png" alt="">
-            <h3>Premium Audio Quality</h3>
-            <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            <img src="assets/resource.png" alt="">
+            <h3>Exclusive Interviews</h3>
+            <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
         </div>
         <div class="choose-box box-5">
-            <img src="assets/headphone.png" alt="">
-            <h3>Premium Audio Quality</h3>
-            <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            <img src="assets/resource.png" alt="">
+            <h3>Rich Resources</h3>
+            <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
         </div>
         
     </div>
@@ -107,17 +116,26 @@ and share stories of personal growth from industry leaders.</p>
             <iframe width="100%" src="https://www.youtube.com/embed/d6bz7NIOoD0?si=CzQQWu42fri29f1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <h3>The Future of AI in Everyday Life</h3>
             <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+            <p style="padding: 0px 20px 20px 20px;">
+                <img src="assets/clock.png" alt="" style="vertical-align: middle; color: rgb(75, 255, 47);"> 42 min
+            </p>
         </div>
         
         <div class="video">
             <iframe width="100%" src="https://www.youtube.com/embed/d6bz7NIOoD0?si=CzQQWu42fri29f1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <h3>The Future of AI in Everyday Life</h3>
             <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+            <p style="padding: 0px 20px 20px 20px;">
+                <img src="assets/clock.png" alt="" style="vertical-align: middle; color: rgb(75, 255, 47);"> 35 min
+            </p>
         </div>
         <div class="video">
             <iframe width="100%" src="https://www.youtube.com/embed/d6bz7NIOoD0?si=CzQQWu42fri29f1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <h3>The Future of AI in Everyday Life</h3>
             <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+            <p style="padding: 0px 20px 20px 20px;">
+                <img src="assets/clock.png" alt="" style="vertical-align: middle; color: rgb(75, 255, 47);"> 51 min
+            </p>
         </div>
         </div>
         
