@@ -84,6 +84,11 @@ Large Device: above 992 px */
     font-size: 30px;
     font-weight: 600px;
 }
+.hero-section{
+    background-image: url('assets/small-hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
 
 
 
@@ -110,6 +115,13 @@ Large Device: above 992 px */
 .footer-icon{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+footer{
+    background-image: url('assets/small-footer-bg.png');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 }
 
