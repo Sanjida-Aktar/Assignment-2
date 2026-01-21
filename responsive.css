@@ -20,10 +20,23 @@ Large Device: above 992 px */
 .content{
     margin: 0px 80px;
 }
-}
 .rating h2{
     font-size: 2rem;
     
+}
+/* choose section  */
+.choose-section{
+    padding: 50px;
+
+}
+.choose-section h1{
+    font-size: 35px;
+}
+.content-choose{
+    display: flex;
+    flex-direction: column;
+}
+
 }
 
 
