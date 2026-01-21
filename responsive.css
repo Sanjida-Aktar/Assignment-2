@@ -66,6 +66,10 @@ Large Device: above 992 px */
     flex-direction: column;
     
 }
+.icon{
+   
+    justify-content: center;
+}
 .host-section{
     text-align: center;
 }
