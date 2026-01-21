@@ -54,6 +54,7 @@ Large Device: above 992 px */
 .host-section h1{
     font-size: 35px;
 }
+}
 
 
 /* smalldevice */
@@ -67,7 +68,8 @@ Large Device: above 992 px */
     font-size: 38px;
 }
 .rate{
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 
