@@ -104,6 +104,8 @@
 .choose-section{
     background-color: #230E3D;
     padding: 100px;
+    padding-top: 60px;
+    padding-bottom: 50px;
 
 }
 .choose-section h1{
@@ -150,15 +152,47 @@
     grid-row: span 1;
 }
 
+/* feature section  */
+
 .feature-section{
     padding: 100px;
+    padding-top: 60px;
 }
 .feature-section h1{
     font-size: 48px;
     text-align: center;
     padding-bottom: 30px;
 }
-.vedio{
+.flex-video{
     display: flex;
-    b
+    justify-content: space-between;
+    gap: 30px;
+    
+    
 }
+.video{
+    /* border: 1px solid white; */
+    background-color: #351165;
+    border-radius: 20px;
+}
+
+.video h3{
+    font-size: 22px;
+    padding: 20px;
+}
+.video p{
+    padding: 0px 20px 20px 20px;
+}
+
+/* host section  */
+.host-section{
+    background-color: #1A0B2E;
+    padding: 100px;
+    padding-top: 50px;
+}
+.host-section h1{
+    font-size: 48px;
+    
+}
+
+

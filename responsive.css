@@ -36,7 +36,13 @@ Large Device: above 992 px */
     display: flex;
     flex-direction: column;
 }
-
+/* feature section  */
+.flex-video{
+    flex-direction: column;
+}
+.feature-section h1{
+    font-size: 35px;
+}
 }
 
 
@@ -54,7 +60,12 @@ Large Device: above 992 px */
     flex-wrap: wrap;
     align-items: center;
 }
-}
+
 .content{
     margin: 0px 40px;
+}
+
+.feature-section{
+    padding: 30px;
+}
 }
