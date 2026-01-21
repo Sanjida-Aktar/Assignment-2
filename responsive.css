@@ -43,6 +43,16 @@ Large Device: above 992 px */
 .feature-section h1{
     font-size: 35px;
 }
+/* host section  */
+.host{
+    flex-direction: column;
+    
+}
+.host-section{
+    text-align: center;
+}
+.host-section h1{
+    font-size: 35px;
 }
 
 
@@ -68,4 +78,8 @@ Large Device: above 992 px */
 .feature-section{
     padding: 30px;
 }
+.host-section{
+    padding: 30px;
 }
+}
+
